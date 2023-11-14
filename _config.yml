@@ -34,7 +34,7 @@ navigation_links:
     url: /
 
   - title: Blog
-    url: /blog/index.md
+    url: /blog/index.html
 
   - title: Search
     url: /search
