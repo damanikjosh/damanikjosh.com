@@ -28,6 +28,8 @@ url: https://damanikjosh.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+google_analytics: G-JVG82QR7JH
+
 # Navigation menu
 navigation_links:
   - title: About
