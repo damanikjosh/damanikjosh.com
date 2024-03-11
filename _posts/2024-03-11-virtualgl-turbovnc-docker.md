@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Part 1] Running OpenGL Applications Remotely Made Easy. The VirtualGL and TurboVNC Docker Image
+title: Running OpenGL Applications Remotely Made Easy. The VirtualGL and TurboVNC Docker Image
 categories: [tutorial, docker, opengl]
 ---
 
