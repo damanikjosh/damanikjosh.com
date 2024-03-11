@@ -20,7 +20,7 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 
 ### Conference Papers
 
-- **Contrastive Learning-Based Air Traffic Trajectory Representation: A Case Study on Incheon International Airport** _(Submitted)_. T Phisannupawong, **JJ Damanik**, HL Choi. The CEAS Conference on Guidance, Navigation and Control. 2024.
+- **Contrastive Learning-Based Air Traffic Trajectory Representation: A Case Study on Incheon International Airport** _(Accepted)_. T Phisannupawong, **JJ Damanik**, HL Choi. The CEAS Conference on Guidance, Navigation and Control. 2024.
 
 - **Comparative Analysis of Autoencoder Architectures on Incheon Airport Flights Trajectory Reconstruction** _(Accepted)_. **JJ Damanik**, T Phisannupawong, HL Choi. The Korean Society for Aeronautical and Space Sciences Fall Conference. 2023.
 
