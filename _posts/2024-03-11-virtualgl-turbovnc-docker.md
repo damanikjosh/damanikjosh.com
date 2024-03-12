@@ -164,8 +164,28 @@ docker run --gpus all --rm -it --network=host -e DISPLAY=:2 -e VGL_DISPLAY=:1 da
 ```
 
 ```
-Password:%20%0AVerify%3A%20%20%20%0AWould%20you%20like%20to%20enter%20a%20view-only%20password%20(y/n)?%20n%0Axauth:%20%20file%20/root/.Xauthority%20does%20not%20exist%0A%0ADesktop%20'TurboVNC:%20joshua-ki:1%20()'%20started%20on%20display%20joshua-ki:1%0A%0AStarting%20applications%20specified%20in%20/opt/TurboVNC/bin/xstartup.turbovnc%0ALog%20file%20is%20/root/.vnc/joshua-ki:1.log%0A%0APolygons%20in%20scene:%2062464%20(61%20spheres%20*%201024%20polys/spheres)%0AGLX%20FB%20config%20ID%20of%20window:%200xad%20(8/8/8/0)%0AVisual%20ID%20of%20window:%200x21%0AContext%20is%20Direct%0AOpenGL%20Renderer:%20NVIDIA%20GeForce%20RTX%203060%20Ti/PCIe/SSE2%0A728.220730%20frames/sec%20-%20812.694335%20Mpixels/sec%0A772.531431%20frames/sec%20-%20862.145077%20Mpixels/sec%0A733.322725%20frames/sec%20-%20818.388161%20Mpixels/sec%0A697.386022%20frames/sec%20-%20778.282801%20Mpixels/sec%0A725.497405%20frames/sec%20-%20809.655104%20Mpixels/sec%0A
+Password: 
+Verify:   
+Would you like to enter a view-only password (y/n)? n
+xauth:  file /root/.Xauthority does not exist
+
+Desktop 'TurboVNC: joshua-ki:1 ()' started on display joshua-ki:1
+
+Starting applications specified in /opt/TurboVNC/bin/xstartup.turbovnc
+Log file is /root/.vnc/joshua-ki:1.log
+
+Polygons in scene: 62464 (61 spheres * 1024 polys/spheres)
+GLX FB config ID of window: 0xad (8/8/8/0)
+Visual ID of window: 0x21
+Context is Direct
+OpenGL Renderer: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+728.220730 frames/sec - 812.694335 Mpixels/sec
+772.531431 frames/sec - 862.145077 Mpixels/sec
+733.322725 frames/sec - 818.388161 Mpixels/sec
+697.386022 frames/sec - 778.282801 Mpixels/sec
+725.497405 frames/sec - 809.655104 Mpixels/sec
 ```
+
 Flag descriptions:
 - `--gpus all` : Attaching host GPUs into the docker container
 - `--rm` : Remove the docker container on exit
@@ -176,7 +196,8 @@ Flag descriptions:
 
 Using the default configuration, docker container can be accessed using browser on port `8080`. After logging in using the VNC password, you can see the `vglspheres64` running.
 
-![](screenshot.png)
+![Screenshot](/assets/image/posts/screenshot.png)
+
 ## Conclusion
 
 The VirtualGL and TurboVNC Docker image opens up new possibilities for running OpenGL applications remotely with ease. Whether you're a developer needing to access graphical applications on remote servers or someone looking to run high-performance computing tasks, this Docker image provides a reliable and efficient solution. By bridging the gap between remote applications and GPU acceleration, it ensures that your graphical applications run smoothly, no matter where you are.
