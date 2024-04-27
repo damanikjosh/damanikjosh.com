@@ -69,10 +69,10 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 
 ### Software Development
 
-| [AngklungFM](https://github.com/damanikjosh/AngklungFM)                                                                                                                                                  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![angklungfm.png](assets/image/posts/angklungfm.png)                                                                                                                                                     |
-| AngklungFM is a VST3 plugin that synthesizes the sound of the angklung, a traditional Indonesian musical instrument. Made with JUCE framework in C++. https://www.youtube.com/watch?v=tIuynlJ_XaU&t=341s |
+| [AngklungFM](https://github.com/damanikjosh/AngklungFM)                                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![angklungfm.png](assets/image/posts/angklungfm.png)                                                                                                                                                              |
+| AngklungFM is a VST3 plugin that synthesizes the sound of the angklung, a traditional Indonesian musical instrument. Made with JUCE framework in C++. [Video](https://www.youtube.com/watch?v=tIuynlJ_XaU&t=341s) |
 
 | [VirtualGL ROS Docker Image](https://github.com/damanikjosh/virtualgl-turbovnc-ros2-docker/tree/main)                                |
 |--------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,9 +85,9 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 
 ### Robotics Simulations
 
-| [Gazebo Simulation of Illegal Fishing Patrol](https://www.youtube.com/watch?v=kgIcTipmNLQ)                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------|
-| ![a4_gazebo.png](assets/image/posts/a4_gazebo.png)                                                                                     |
-| A simulation of a quadrotor drone patrolling the sea to detect illegal fishing activities. Made using ROS, Gazebo, and PX4 Autopilot. https://www.youtube.com/watch?v=kgIcTipmNLQ |
+| [Gazebo Simulation of Illegal Fishing Patrol](https://www.youtube.com/watch?v=kgIcTipmNLQ)                                                                                                 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![a4_gazebo.png](assets/image/posts/a4_gazebo.png)                                                                                                                                         |
+| A simulation of a quadrotor drone patrolling the sea to detect illegal fishing activities. Made using ROS, Gazebo, and PX4 Autopilot. [Video](https://www.youtube.com/watch?v=kgIcTipmNLQ) |
 
 
