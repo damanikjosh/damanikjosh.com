@@ -45,7 +45,7 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 
 ![aviation_paper.png](assets/image/posts/aviation_paper.png)
 
-- [Decentralized delivery task allocation for hybrid-transit logistics network system](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526241). **JJ Damanik**, CK Shin, HL Choi. The Korean Society for Aeronautical and Space Sciences Fall Conference. 2020.
+- [Decentralized delivery task allocation for hybrid-transit logistics network system](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526241). **JJ Damanik**, HL Choi. The Korean Society for Aeronautical and Space Sciences Fall Conference. 2020.
 
 - [Flocking of Robots with Predictive Localization](https://ieeexplore.ieee.org/abstract/document/8674680). **JJ Damanik**, DR Andriani, A Widyotriatmo, E Joelianto. IEEE International Conference on Robotics, Biomimetics, and Intelligent Computational Systems (Robionetics). 2018.
 
