@@ -56,10 +56,16 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 ## Projects
 
 ### Web development
-| [Daewoong Sharedoc Info](https://sharedocinfo.com)                                                                                                                                                                                      | Air Traffic Flow Visualization                                                                                                                                                                                                                                 |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![sharedoc.png](assets/image/posts/sharedoc.png)                                                                                                                                                                                        | ![atfm_website.png](assets/image/posts/atfm_website.png)                                                                                                                                                                                                       |
-| A platform to accelerate coordination between Daewoong Pharmaceutical Company and Doctors around the world in generating contents regarding health and medicines. Made using React in Javascript. Deployed in AWS (Amazon Web Service). | A platform to acquire the ADSB data from open source database ([OpenSky](https://opensky-network.org)), analyze the traffic flows, and predict the airborne delay. It also visualize of realtime flight trajectories in a map. Made using React in Javascript. |
+
+| Air Traffic Flow Visualization                                                                                                                                                                                                                                 |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![atfm_website.png](assets/image/posts/atfm_website.png)                                                                                                                                                                                                       |
+| A platform to acquire the ADSB data from open source database ([OpenSky](https://opensky-network.org)), analyze the traffic flows, and predict the airborne delay. It also visualize of realtime flight trajectories in a map. Made using React in Javascript. |
+
+| [Daewoong Sharedoc Info](https://sharedocinfo.com)                                                                                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![sharedoc.png](assets/image/posts/sharedoc.png)                                                                                                                                                                                        |
+| A platform to accelerate coordination between Daewoong Pharmaceutical Company and Doctors around the world in generating contents regarding health and medicines. Made using React in Javascript. Deployed in AWS (Amazon Web Service). |
 
 ### Software Development
 
