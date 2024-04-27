@@ -15,8 +15,11 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 
 - [Consensus-based clustering and data aggregation in decentralized network of multi-agent systems](https://peerj.com/articles/cs-1445/?td=tw). **JJ Damanik**, MC Lim, HM Jeong, Ho-Yeon Kim, HL Choi. PeerJ Computer Science. 2023.
 
-- [Polygon formation of multiple nonholonomic mobile robots with double-level-control collision avoidance scheme](https://www.tandfonline.com/doi/abs/10.1080/23307706.2022.2064341). A Widyotriatmo, E Joelianto, AM Burohman, **JJ Damanik**, YY Nazaruddin. Journal of Control and Decision. 2022.
+![peerj_paper.png](assets/image/posts/peerj_paper.png)
 
+- [Polygon formation of multiple nonholonomic mobile robots with double-level-control collision avoidance scheme](https://www.tandfonline.com/doi/abs/10.1080/23307706.2022.2064341). A Widyotriatmo, E Joelianto, AM Burohman, **JJ Damanik**, YY Nazaruddin. Journal of Control and Decision. 2022._Contributed to Experimental design, data collection, and analysis._
+
+![itb-paper.png](assets/image/posts/itb-paper.png)
 
 ### Conference Papers
 
@@ -24,13 +27,23 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 
 - [Comparative Analysis of Autoencoder Architectures on Incheon Airport Flights Trajectory Reconstruction](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11657915). **JJ Damanik**, T Phisannupawong, HL Choi. The Korean Society for Aeronautical and Space Sciences Fall Conference. 2023.
 
+![autoencoder_paper.png](assets/image/posts/autoencoder_paper.png)
+
 - [Sampling-Based Path Planning Algorithm Considering Moving Obstacles Based on RRT](https://link.springer.com/chapter/10.1007/978-3-031-26889-2_5). **JJ Damanik**, HL Choi. International Conference on Robot Intelligence Technology and Applications. 2022.
+
+![paper_rita_2.png](assets/image/posts/rita_paper_2.png)
 
 - [Spatial Trajectory Clustering of Incheon Airport Flights](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11180587). **JJ Damanik**, CK Shin, HL Choi. The Korean Society for Aeronautical and Space Sciences Fall Conference. 2022.
 
+![clustering_paper.png](assets/image/posts/clustering_paper.png)
+
 - [Solving Delivery Assignment in Hybrid-Transit Network Using Multi-agent Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-3-030-97672-9_44). **JJ Damanik**, H Kasan, HL Choi. International Conference on Robot Intelligence Technology and Applications. 2021.
 
+![marl_paper.png](assets/image/posts/marl_paper.png)
+
 - [Vehicle Routing Problem with Pickup, Relay, and Delivery: Delivery Task Assignment in Hybrid-Transit Logistics Network](https://arc.aiaa.org/doi/abs/10.2514/6.2021-2341). **JJ Damanik**, HL Choi. AIAA Aviation 2021 Forum. 2021.
+
+![aviation_paper.png](assets/image/posts/aviation_paper.png)
 
 - [Decentralized delivery task allocation for hybrid-transit logistics network system](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526241). **JJ Damanik**, CK Shin, HL Choi. The Korean Society for Aeronautical and Space Sciences Fall Conference. 2020.
 
