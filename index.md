@@ -52,3 +52,36 @@ I am doing research in the 🔬 [Laboratory for information and Control Systems]
 ### Theses
 
 - [Collaborative pickup and delivery system with UAV](https://koasas.kaist.ac.kr/handle/10203/296271) _(MS Thesis)_. **JJ Damanik**. KAIST Library. 2021.
+
+## Projects
+
+### Web development
+| [Daewoong Sharedoc Info](https://sharedocinfo.com)                                                                                                                                                                                      | Air Traffic Flow Visualization                                                                                                                                                                                                                                 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![sharedoc.png](assets/image/posts/sharedoc.png)                                                                                                                                                                                        | ![atfm_website.png](assets/image/posts/atfm_website.png)                                                                                                                                                                                                       |
+| A platform to accelerate coordination between Daewoong Pharmaceutical Company and Doctors around the world in generating contents regarding health and medicines. Made using React in Javascript. Deployed in AWS (Amazon Web Service). | A platform to acquire the ADSB data from open source database ([OpenSky](https://opensky-network.org)), analyze the traffic flows, and predict the airborne delay. It also visualize of realtime flight trajectories in a map. Made using React in Javascript. |
+
+### Software Development
+
+| [AngklungFM](https://github.com/damanikjosh/AngklungFM)                                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![angklungfm.png](assets/image/posts/angklungfm.png)                                                                                                                                                     |
+| AngklungFM is a VST3 plugin that synthesizes the sound of the angklung, a traditional Indonesian musical instrument. Made with JUCE framework in C++. https://www.youtube.com/watch?v=tIuynlJ_XaU&t=341s |
+
+| [VirtualGL ROS Docker Image](https://github.com/damanikjosh/virtualgl-turbovnc-ros2-docker/tree/main)                                |
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| ![docker_ros.png](assets/image/posts/docker_ros.png)                                                                                 |
+| A Docker image that allows running ROS applications with graphical interface remotely. It integrates VirtualGL, TurboVNC, and noVNC. |
+
+| Motion Analysis MOCAP integration to [libmotioncapture](https://github.com/damanikjosh/libmotioncapture)                                       |
+|------------------------------------------------------------------------------------------------------------------------------------------------|
+| Contributed to the integration of the motion capture system used by my laboratory to the open-source library libmotioncapture. Made using C++. |
+
+### Robotics Simulations
+
+| [Gazebo Simulation of Illegal Fishing Patrol](https://www.youtube.com/watch?v=kgIcTipmNLQ)                                             |
+|----------------------------------------------------------------------------------------------------------------------------------------|
+| ![a4_gazebo.png](assets/image/posts/a4_gazebo.png)                                                                                     |
+| A simulation of a quadrotor drone patrolling the sea to detect illegal fishing activities. Made using ROS, Gazebo, and PX4 Autopilot. https://www.youtube.com/watch?v=kgIcTipmNLQ |
+
+

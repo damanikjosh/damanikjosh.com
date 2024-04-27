@@ -196,7 +196,7 @@ Flag descriptions:
 
 Using the default configuration, docker container can be accessed using browser on port `8080`. After logging in using the VNC password, you can see the `vglspheres64` running.
 
-![Screenshot](/assets/image/posts/screenshot.png)
+![Screenshot](/assets/image/posts/angklungfm.png)
 
 ## Conclusion
 
