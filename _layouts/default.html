@@ -1,144 +1,37 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en" }}">
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', '{{ site.google_analytics }}');
-    </script>
-    {% include meta.html %}
-
-    {% seo title=false %}
-    {% if page.title %}
-    <title>{{ page.title }}&#32;&#45;&#32;{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
-    {% else %}
-    <title>{{ site.description }}&#32;&#45;&#32;{{ site.title }}</title>
-    {% endif %}
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/image/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/image/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/image/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/image/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/image/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/image/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/image/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/image/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="/assets/image/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="/assets/image/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="/assets/image/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/assets/image/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="/assets/image/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/assets/image/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="/assets/image/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="/assets/image/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="/assets/image/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="/assets/image/mstile-310x310.png" />
-
-    <meta name="theme-color" content="#ffffff">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous" media="print" onload="this.media='all'"/>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.5/plyr.css" media="print" onload="this.media='all'"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" media="print" onload="this.media='all'"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/ress/dist/ress.min.css"/>
-  </head>
-
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}" class="html" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
+        {%- include head.html -%}
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar | absolute_url }}" width="70" height="70" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav class="nav-menu">
-            {% include navigation.html %}
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {%- if site.footer_links -%}
-          <div class="social-icons">
-            {%- for footer_link in site.footer_links -%}
-            {%- if footer_link.url contains "://" -%}
-            {%- assign url = footer_link.url -%}
-            {%- else -%}
-            {%- assign url = footer_link.url | relative_url -%}
-            {%- endif -%}
-            <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fa fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
-            {%- endfor -%}
-          </div>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        {{ content }}
+        {% if site.theme_config.appearance_toggle %}
+          {% include toggle_theme_button.html %}
+        {% endif %}
+        <div class="credits">
+          {%- if site.theme_config.show_copyright == true -%}
+          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
+          &nbsp;
+          •
+          &nbsp;
           {%- endif -%}
-
-          <div class="copyright">
-            {% if site.copyright %}
-            {{ site.copyright | markdownify }}
-            {% else %}
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | default: site.title }}. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/forever-jekyll/forever-jekyll" rel="nofollow">Forever Jekyll</a>.</p>
-            {% endif %}
-          </div>
-        </footer>
+          {%- if site.soopr -%}
+          Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
+          &nbsp;
+          •
+          &nbsp;
+          {%- endif -%}
+          Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+        </div>
       </div>
-    </div>
+    </main>
 
-    <script defer src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-    <script>
-      const player = new Plyr("#player", { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1, playsinline: 1 , enablejsapi: 1, autoplay: 0, focused: true, global: false });
-      window.player = player;
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-          touchNavigation: true,
-          loop: true,
-          autoplayVideos: true
-      });
-    </script>
-
-    <script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
-
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-            onload="renderMathInElement(document.body,{
-                    delimiters: [
-                    { left: '$$',  right: '$$',  display: true  },
-                    { left: '$',   right: '$',   display: false },
-                    { left: '\\[', right: '\\]', display: true  },
-                    { left: '\\(', right: '\\)', display: false }
-                    ]});">
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script>
-      function addDarkmodeWidget() {
-        new Darkmode().showWidget();
-        window.addEventListener('load', addDarkmodeWidget);
-      }
-      const options = {
-        label: '🌓',
-      }
-      const darkmode = new Darkmode(options);
-            darkmode.showWidget();
-    </script>
-
+    {%- if site.soopr -%}
+      {%- if site.soopr.publish_token and jekyll.environment == "production" -%}
+        <script async defer data-soopr-token="{{site.soopr.publish_token}}" src="https://sdk.soopr.co/soopr.js"></script>
+      {%- else -%}
+        <script async defer src="https://sdk.soopr.co/soopr.js"></script>
+      {%- endif -%}
+    {%- endif -%}
   </body>
 </html>

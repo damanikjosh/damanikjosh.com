@@ -1,0 +1,29 @@
+<ul class="vertical_list">
+  {% for item in include.collection %}
+    <li>
+    {% if item.url != false %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    {% else %}
+      {{ item.title }}
+    {% endif %}
+
+    {% if item.post_list == true %}
+      {% include post_list.html %}
+    {% endif %}
+
+    {% if item.journal %}
+      <div><small><i>{{ item.journal }}</i></small></div>
+    {% endif %}
+
+    {% if item.entries %}
+      {% include vertical_list.html collection=item.entries %}
+    {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- Alight right -->
+<!-- <a href="https://scholar.google.com/citations?hl=en&user=eyQAHtwAAAAJ" target="_blank" rel="noreferrer">more...</a> -->
+<div class="text-center">
+  <a href="https://scholar.google.com/citations?hl=en&user=eyQAHtwAAAAJ" target="_blank" rel="noreferrer">more publications</a>
+</div>

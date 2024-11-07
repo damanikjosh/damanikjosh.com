@@ -1,0 +1,91 @@
+navbar_entries:
+  - title: blog
+    url: blog
+
+  - title: linkedin
+    url: https://linkedin.com/in/damanikjosh
+
+  - title: resume
+    url: /assets/Joshua_Resume.pdf
+
+
+project_entries:
+  - title: f1tenth
+    url: f1tenth
+    desc: Mini racing car hardware and software development competition
+    highlight: Winner
+
+  - title: LiCS
+    url: lics
+    desc: Imitation learning framework for robot navigation in cluttered spaces
+    highlight: Winner
+
+  - title: bedrobot
+    url: bedrobot
+    desc: Autonomous hospital bed robot prototype for transporting patients
+
+  # - title: Project 3
+  #   url: overview-post
+  #   desc: You can control visibility from _config.yml file
+
+  # - title: Project 4
+  #   url: overview-post
+  #   desc: This project uses highlight markup, configured in _data/home.yml
+  #   highlight: WIP
+
+  # - title: Project 5
+  #   url: overview-post
+  #   desc: Moonwalk also has horizontal list (used in header and footer)
+  #   highlight: WIP
+
+  # - title: Project 6
+  #   url: overview-post
+  #   desc: It also has a scalable vertical list (in case you need it)
+
+# old_project_entries:
+#   - title: Soopr
+#     url: https://www.soopr.co
+#     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+#     highlight: NEW
+
+#   - title: Cookie
+#     url: https://github.com/abhinavs/cookie
+#     desc: An open source landing website with supporting pages and integrated blog
+
+#   - title: Moonwalk
+#     url: https://github.com/abhinavs/moonwalk
+#     desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+#   - title: Humangous
+#     url: https://www.humangous.co
+#     desc: The better people know you, the better they collaborate
+
+footer_entries:
+  - title: linkedin
+    url: https://linkedin.com/in/damanikjosh
+
+  - title: github
+    url: https://github.com/damanikjosh
+
+  - title: google scholar
+    url: https://scholar.google.com/citations?hl=en&user=eyQAHtwAAAAJ
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: "LiCS: Navigation using Learned-imitation on Cluttered Space"
+    url: lics
+    journal: IEEE Robotics and Automation Letters (in review)
+
+  - title: Polygon formation of multiple nonholonomic mobile robots with double-level-control collision avoidance scheme
+    url: https://www.tandfonline.com/doi/full/10.1080/23307706.2022.2064341
+    journal: Journal of Control and Decision
+
+  - title: "Autonomous Ground Navigation in Highly Constrained Spaces: Lessons Learned From the Third BARN Challenge at ICRA 2024 [Competitions]"
+    url: https://ieeexplore.ieee.org/abstract/document/10673780
+    journal: IEEE Robotics and Automation Magazine
+
+  - title: Solving delivery assignment in hybrid-transit network using multi-agent reinforcement learning
+    url: https://link.springer.com/chapter/10.1007/978-3-030-97672-9_44
+    journal: Robot Intelligence Technology and Applications
