@@ -89,3 +89,7 @@ misc_entries:
   - title: Solving delivery assignment in hybrid-transit network using multi-agent reinforcement learning
     url: https://link.springer.com/chapter/10.1007/978-3-030-97672-9_44
     journal: Robot Intelligence Technology and Applications
+
+  - title: Consensus-based clustering and data aggregation in decentralized network of multi-agent systems
+    url: consensus-clustering-aggregation
+    journal: PeerJ Computer Science
